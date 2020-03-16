@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdeaQuestion Component should match the snapshot with all the data passed through 1`] = `
+<IdeaQuestion
+  formState={
+    Object {
+      "action": Object {
+        "action": "create an app",
+        "id": 1,
+      },
+      "categories": Array [],
+      "question": "",
+      "reset": false,
+    }
+  }
+  setQuestion={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [],
+            "question": "",
+            "reset": false,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <input
+    className="idea-question-input"
+    onChange={[Function]}
+    placeholder="Enter your idea here..."
+    type="text"
+    value=""
+  />
+</IdeaQuestion>
+`;

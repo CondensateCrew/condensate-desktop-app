@@ -1,0 +1,31 @@
+@import '../../css/variables.scss';
+@import '../../css/index.scss';
+
+.insights-div {
+  max-width: 34vw;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @extend %one-line-block;
+  border-radius: $one-line-border-radius;
+  padding: $one-line-padding-space;
+  margin: $small-space auto;
+  img {
+    cursor: pointer;
+    width: 1rem;
+    opacity: 0.4;
+    @extend %hover-transform;
+  }
+  h3 {
+    font-size: 1rem;
+    text-align: left;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    width: 90%;
+  }
+  box-shadow: $external-shadow;
+}

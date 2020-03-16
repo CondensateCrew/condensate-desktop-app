@@ -1,0 +1,22 @@
+@import '../../css/index.scss';
+@import '../../css/variables.scss';
+
+.category-btn {
+  @extend %buttons;
+  margin: $tiny-space;
+  &:hover {
+    background: $hover-btn-gradient;
+    box-shadow: $external-shadow, $regular-focus-shadow;
+  }
+  &:active {
+    box-shadow: $inner-shadow;
+  }
+}
+
+.active {
+  box-shadow:$regular-btn-active-shadow;
+  &:hover {
+    background: $hover-btn-gradient;
+    box-shadow: $inner-shadow;
+  }
+}

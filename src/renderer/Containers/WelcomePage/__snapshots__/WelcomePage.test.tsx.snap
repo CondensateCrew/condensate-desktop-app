@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomePage Component should match the snapshot with isLogin set to false and display SignUpForm 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <WelcomePage>
+      <main
+        className="welcome-page"
+      >
+        <aside>
+          <h1>
+            Condensate
+          </h1>
+          <h2>
+            a new way 
+            <br />
+             to brainstorm
+          </h2>
+        </aside>
+        <SignUpForm
+          error=""
+          isLoading={false}
+          isLogin={false}
+          setCookie={[Function]}
+          setIsLoading={[Function]}
+          toggleTab={[Function]}
+        >
+          <div
+            className="sign-up-form"
+          >
+            <header>
+              <h2
+                className="hidden-tab"
+                onClick={[Function]}
+              >
+                Login
+              </h2>
+              <h2
+                className="active-tab"
+              >
+                Sign Up
+              </h2>
+            </header>
+            <form>
+              <InputElement
+                isLoading={false}
+                key="first-name"
+                repeatPassword=""
+                setError={[Function]}
+                setPassword={[Function]}
+                setUser={[Function]}
+                typeInput="first-name"
+                user={
+                  Object {
+                    "email": "",
+                    "firstName": "",
+                    "lastName": "",
+                    "password": "",
+                  }
+                }
+              >
+                <label
+                  htmlFor="first-name"
+                >
+                  first name
+                  *
+                  <input
+                    id="first-name"
+                    onChange={[Function]}
+                    placeholder="Your First Name"
+                    readOnly={false}
+                    type="text"
+                    value=""
+                  />
+                </label>
+              </InputElement>
+              <InputElement
+                isLoading={false}
+                key="last-name"
+                repeatPassword=""
+                setError={[Function]}
+                setPassword={[Function]}
+                setUser={[Function]}
+                typeInput="last-name"
+                user={
+                  Object {
+                    "email": "",
+                    "firstName": "",
+                    "lastName": "",
+                    "password": "",
+                  }
+                }
+              >
+                <label
+                  htmlFor="last-name"
+                >
+                  last name
+                  *
+                  <input
+                    id="last-name"
+                    onChange={[Function]}
+                    placeholder="Your Last Name"
+                    readOnly={false}
+                    type="text"
+                    value=""
+                  />
+                </label>
+              </InputElement>
+              <InputElement
+                isLoading={false}
+                key="email"
+                repeatPassword=""
+                setError={[Function]}
+                setPassword={[Function]}
+                setUser={[Function]}
+                typeInput="email"
+                user={
+                  Object {
+                    "email": "",
+                    "firstName": "",
+                    "lastName": "",
+                    "password": "",
+                  }
+                }
+              >
+                <label
+                  htmlFor="email"
+                >
+                  email
+                  *
+                  <input
+                    id="email"
+                    onChange={[Function]}
+                    placeholder="email@mail.com"
+                    readOnly={false}
+                    type="text"
+                    value=""
+                  />
+                </label>
+              </InputElement>
+              <InputElement
+                isLoading={false}
+                key="password"
+                repeatPassword=""
+                setError={[Function]}
+                setPassword={[Function]}
+                setUser={[Function]}
+                typeInput="password"
+                user={
+                  Object {
+                    "email": "",
+                    "firstName": "",
+                    "lastName": "",
+                    "password": "",
+                  }
+                }
+              >
+                <label
+                  htmlFor="password"
+                >
+                  password
+                  *
+                  <input
+                    id="password"
+                    onChange={[Function]}
+                    placeholder="Your Password"
+                    readOnly={false}
+                    type="password"
+                    value=""
+                  />
+                </label>
+              </InputElement>
+              <InputElement
+                isLoading={false}
+                key="repeat-password"
+                repeatPassword=""
+                setError={[Function]}
+                setPassword={[Function]}
+                setUser={[Function]}
+                typeInput="repeat-password"
+                user={
+                  Object {
+                    "email": "",
+                    "firstName": "",
+                    "lastName": "",
+                    "password": "",
+                  }
+                }
+              >
+                <label
+                  htmlFor="repeat-password"
+                >
+                  repeat password
+                  *
+                  <input
+                    id="repeat-password"
+                    onChange={[Function]}
+                    placeholder="Repeat Password"
+                    readOnly={false}
+                    type="password"
+                    value=""
+                  />
+                </label>
+              </InputElement>
+              <button
+                disabled={true}
+                onClick={[Function]}
+              >
+                Sign Up
+              </button>
+            </form>
+          </div>
+        </SignUpForm>
+      </main>
+    </WelcomePage>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`WelcomePage Component should match the snapshot with isLogin set to true and display LoginForm 1`] = `
+<main
+  className="welcome-page"
+>
+  <aside>
+    <h1>
+      Condensate
+    </h1>
+    <h2>
+      a new way 
+      <br />
+       to brainstorm
+    </h2>
+  </aside>
+  <LoginForm
+    error=""
+    isLoading={false}
+    isLogin={true}
+    setCookie={[Function]}
+    setIsLoading={[Function]}
+    toggleTab={[Function]}
+  />
+</main>
+`;

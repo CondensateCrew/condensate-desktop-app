@@ -1,0 +1,10 @@
+@import "../../css/variables.scss";
+
+.App {
+  text-align: center;
+  height: 100vh;
+  &>main {
+    padding: $medium-space;
+    height: 100%;
+  }
+}

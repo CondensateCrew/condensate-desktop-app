@@ -1,0 +1,48 @@
+@import '../../css/index.scss';
+@import '../../css/variables.scss';
+
+.final-idea-field-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+}
+
+.final-idea-question-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+  background: $primary-gradient;
+  border-radius: $one-line-border-radius;
+  box-shadow: $external-shadow;
+  padding: $medium-space;
+  margin: $small-space;
+  img {
+    width: $big-text;
+  }
+}
+
+.final-idea-field-div {
+  background: $primary-gradient;
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: $one-line-border-radius;
+  box-shadow: $external-shadow;
+  padding: $big-block-padding-space + $tiny-space;
+  textarea {
+    resize: none;
+    width: 100%;
+    height: 25vh;
+    padding: $medium-space;
+    box-shadow: $inner-shadow;
+    border-radius: $one-line-border-radius;
+    margin-bottom: $small-space;
+  }
+  button {
+    @extend %regular-btn;
+  }
+}

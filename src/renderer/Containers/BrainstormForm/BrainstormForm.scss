@@ -1,0 +1,90 @@
+@import '../../css/variables.scss';
+@import '../../css/index.scss';
+
+.brainstorm-form {
+  padding: $big-block-padding-space;
+  background: $primary-gradient;
+  border-radius: $big-blocks-border-radius;
+  box-shadow: $external-shadow;
+  overflow: scroll;
+  h2 {
+    font-size: $medium-text;
+  }
+}
+
+.brainstorm-div {
+  text-align: left;
+  margin: $large-space 0;
+  label {
+    font-size: $small-text;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 20;
+    img {
+      cursor: pointer;
+      width: $small-text;
+      margin-right: $small-space;
+      &:hover {
+        transform: scale(1.1);
+      }
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+  }
+  textarea {
+    @extend %regular-input;
+    border-radius: $one-line-border-radius;
+    resize: none;
+    padding: $small-space;
+    height: 6rem;
+  }
+}
+
+.brainstorm-form-menu {
+  @extend %regular-input;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: $one-line-border-radius;
+  width: 100%;
+  padding: $one-line-padding-space;
+}
+
+.cancel-btn {
+  @extend %regular-btn;
+  margin: 0;
+  background: $error-color;
+  font-weight: bold;
+  &:hover {
+    background: $darken-error-color;
+  }
+}
+
+.clean-btn {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: $extra-small-space;
+  border-radius: $round-border-radius;
+  @extend %regular-btn;
+  cursor: pointer;
+  img {
+    width: $small-text;
+  }
+}
+
+.start-btn {
+  margin: 0;
+  @extend %regular-btn;
+}

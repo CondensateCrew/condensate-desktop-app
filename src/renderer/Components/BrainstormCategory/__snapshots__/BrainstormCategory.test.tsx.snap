@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrainstormCategory should match the snapshot 1`] = `
+<BrainstormCategory
+  category={
+    Object {
+      "id": 1,
+      "name": "Technology",
+    }
+  }
+  formState={
+    Object {
+      "action": Object {
+        "action": "create an app",
+        "id": 1,
+      },
+      "categories": Array [],
+      "question": "",
+      "reset": false,
+    }
+  }
+  setCategory={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [],
+            "question": "",
+            "reset": false,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <button
+    className="category-btn"
+    onClick={[Function]}
+    type="button"
+    value="Technology"
+  >
+    Technology
+  </button>
+</BrainstormCategory>
+`;
+
+exports[`BrainstormCategory should render a different snapshot after a click event 1`] = `
+<BrainstormCategory
+  category={
+    Object {
+      "id": 1,
+      "name": "Technology",
+    }
+  }
+  formState={
+    Object {
+      "action": Object {
+        "action": "create an app",
+        "id": 1,
+      },
+      "categories": Array [],
+      "question": "",
+      "reset": false,
+    }
+  }
+  setCategory={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [],
+            "question": "",
+            "reset": false,
+          },
+        ],
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [
+              Object {
+                "id": 1,
+                "name": "Technology",
+              },
+            ],
+            "question": "",
+            "reset": false,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <button
+    className="category-btn active"
+    onClick={[Function]}
+    type="button"
+    value="Technology"
+  >
+    Technology
+  </button>
+</BrainstormCategory>
+`;
+
+exports[`BrainstormCategory should reset local state when formState.reset is true 1`] = `
+<BrainstormCategory
+  category={
+    Object {
+      "id": 1,
+      "name": "Technology",
+    }
+  }
+  formState={
+    Object {
+      "action": Object {
+        "action": "create an app",
+        "id": 1,
+      },
+      "categories": Array [],
+      "question": "",
+      "reset": false,
+    }
+  }
+  setCategory={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [],
+            "question": "",
+            "reset": false,
+          },
+        ],
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [
+              Object {
+                "id": 1,
+                "name": "Technology",
+              },
+            ],
+            "question": "",
+            "reset": false,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <button
+    className="category-btn active"
+    onClick={[Function]}
+    type="button"
+    value="Technology"
+  >
+    Technology
+  </button>
+</BrainstormCategory>
+`;
+
+exports[`BrainstormCategory should reset local state when formState.reset is true 2`] = `
+<BrainstormCategory
+  category={
+    Object {
+      "id": 1,
+      "name": "Technology",
+    }
+  }
+  formState={
+    Object {
+      "action": Object {
+        "action": "create an app",
+        "id": 1,
+      },
+      "categories": Array [],
+      "question": "",
+      "reset": true,
+    }
+  }
+  mockSetCategory={[MockFunction]}
+  setCategory={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [],
+            "question": "",
+            "reset": false,
+          },
+        ],
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [
+              Object {
+                "id": 1,
+                "name": "Technology",
+              },
+            ],
+            "question": "",
+            "reset": false,
+          },
+        ],
+        Array [
+          Object {
+            "action": Object {
+              "action": "create an app",
+              "id": 1,
+            },
+            "categories": Array [],
+            "question": "",
+            "reset": true,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <button
+    className="category-btn"
+    onClick={[Function]}
+    type="button"
+    value="Technology"
+  >
+    Technology
+  </button>
+</BrainstormCategory>
+`;

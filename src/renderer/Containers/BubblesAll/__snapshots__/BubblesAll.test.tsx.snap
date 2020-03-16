@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BubblesAll component should match the snapshot 1`] = `
+<section
+  className="all-bbls"
+>
+  <p
+    className="bubble randomly"
+    key="Goose-1"
+  >
+    <span />
+    <button
+      id="goose"
+      onClick={[Function]}
+    >
+      Goose
+    </button>
+  </p>
+</section>
+`;
+
+exports[`BubblesAll component should match the snapshot if time is ended 1`] = `
+<section
+  className="all-bbls"
+>
+  <Redirect
+    to="/instructions/second-rd"
+  />
+</section>
+`;

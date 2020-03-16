@@ -1,0 +1,22 @@
+@import '../../css/index.scss';
+@import '../../css/variables.scss';
+
+.category-field-section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: $extra-small-space;
+}
+
+.add-category-btn {
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: .2rem;
+  background: $primary-gradient;
+  border: $light-border;
+  border-radius: $round-border-radius;
+  box-shadow: $external-shadow;
+  &:hover {
+    background: $hover-btn-gradient;
+  }
+}

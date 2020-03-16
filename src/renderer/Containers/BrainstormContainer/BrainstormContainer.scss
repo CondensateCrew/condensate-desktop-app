@@ -1,0 +1,11 @@
+@import "../../css/variables.scss";
+
+.bs-container {
+  // break-inside: avoid;
+  column-count: 2;
+  column-width: 28rem;
+  column-gap: $medium-space;
+  margin-top: $medium-space;
+  margin-left: $medium-space;
+  padding-right: $medium-space;
+}

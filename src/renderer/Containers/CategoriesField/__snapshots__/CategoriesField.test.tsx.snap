@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesField should match the snapshot 1`] = `
+<section
+  className="category-field-section"
+>
+  <BrainstormCategory
+    category={
+      Object {
+        "id": 1,
+        "name": "Education",
+      }
+    }
+    formState={
+      Object {
+        "action": "create an app",
+        "categories": Array [],
+        "question": "",
+        "reset": true,
+      }
+    }
+    key="0"
+    setCategory={[MockFunction]}
+  />
+  <BrainstormCategory
+    category={
+      Object {
+        "id": 2,
+        "name": "Technology",
+      }
+    }
+    formState={
+      Object {
+        "action": "create an app",
+        "categories": Array [],
+        "question": "",
+        "reset": true,
+      }
+    }
+    key="1"
+    setCategory={[MockFunction]}
+  />
+  <BrainstormCategory
+    category={
+      Object {
+        "id": 3,
+        "name": "Environment",
+      }
+    }
+    formState={
+      Object {
+        "action": "create an app",
+        "categories": Array [],
+        "question": "",
+        "reset": true,
+      }
+    }
+    key="2"
+    setCategory={[MockFunction]}
+  />
+  <BrainstormCategory
+    category={
+      Object {
+        "id": 4,
+        "name": "Food",
+      }
+    }
+    formState={
+      Object {
+        "action": "create an app",
+        "categories": Array [],
+        "question": "",
+        "reset": true,
+      }
+    }
+    key="3"
+    setCategory={[MockFunction]}
+  />
+  <BrainstormCategory
+    category={
+      Object {
+        "id": 5,
+        "name": "Music",
+      }
+    }
+    formState={
+      Object {
+        "action": "create an app",
+        "categories": Array [],
+        "question": "",
+        "reset": true,
+      }
+    }
+    key="4"
+    setCategory={[MockFunction]}
+  />
+</section>
+`;
