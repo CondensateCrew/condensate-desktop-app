@@ -39,7 +39,7 @@ Deployment with Heroku
 
 ## Setup
 
-- `git clone https://github.com/CondensateCrew/condensate_backend.git`
+- `git clone https://github.com/CondensateCrew/condensate-desktop-app.git`
 - `npm i`
 - `npm run dev` - for run app locally
 - `npm run build` - for create app
